@@ -38,7 +38,7 @@ header h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-style: italic;
-    background-image: url(/assets/images/banner.jpeg);
+    background-image: url("../images/banner.jpeg");
     margin: 0;
     font-size: 4vw;
     line-height: 1;
@@ -72,7 +72,7 @@ main {
 }
 
 .banner {
-    background-image: url('/assets/images/banner.jpeg');
+    background-image: url("../images/banner.jpeg");
     background-position: center;
     padding: 2% 6%;
     display: flex;
@@ -197,27 +197,27 @@ main {
 }
 
 .nfinibus-sed {
-    background-image: url('/assets/images/photo-1584028887908-f6d2257fe9d4.jpeg');
+    background-image: url("../images/photo-1584028887908-f6d2257fe9d4.jpeg");
 }
 
 .Lorem-ipsum {
-    background-image: url('/assets/images/Cinderella-Castles-50th-anniversary-look-1536x915.jpg');
+    background-image: url("../images/Cinderella-Castles-50th-anniversary-look-1536x915.jpg");
 }
 
 .Neque-porro {
-    background-image: url('/assets/images/Cinderella-Castle_Full_43148.webp');
+    background-image: url("../images/Cinderella-Castle_Full_43148.webp");
 }
 
 .praesent-vel {
-    background-image: url('/assets/images/wp2636088-disney-castle-wallpaper.jpg');
+    background-image: url("../images/wp2636088-disney-castle-wallpaper.jpg");
 }   
 
 .phasellus-nibh {
-    background-image: url('/assets/images/VXmENy.webp');
+    background-image: url("../images/VXmENy.webp");
 }
 
 .Casamia-home-improvement {
-    background-image: url('/assets/images/LogoCasamia.jpg');
+    background-image: url("../images/LogoCasamia.jpg");
 }
 
 @media screen and (max-width: 980px) {
