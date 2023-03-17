@@ -54,6 +54,7 @@ nav a {
     padding: 5px 10px;
     color: rgb(209, 15, 106);
     margin-right: 20px;
+    font-size: 1.3rem;
 }
 
 nav a:hover {
@@ -126,20 +127,46 @@ main {
     justify-content: center;
 }
 
+.Casamia-home-improvement {
+    border: 5px solid pink;
+    box-sizing: border-box;
+    background-color: transparent;
+    background-position: center center;
+    color: rgb(5, 0, 1);
+    min-height: 400px;
+    min-width: 800px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 30px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: cover;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+}
+
+.Casamia-home-improvement div {
+    background-color: rgb(201, 222, 242);
+    padding: 8px 10px;
+}
+
 .flex-item {
     border: 5px solid pink;
     background-color: transparent;
+    background-position: center center;
     color: rgb(5, 0, 1);
-    min-height: 150px;
+    min-height: 200px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
     display: flex;
     align-items: flex-end;
-    padding: 6px 0;
+    padding: 30px 0;
     margin: 0.5em;
     text-decoration: none;
     background-blend-mode: soft-light;
-    background-size: 150%;
+    background-size: cover;
     transition: all 0.5s;
     font-size: 0.9rem;
 }
